@@ -1,0 +1,55 @@
+@font-face { 
+    font-family: NES; src: url('nintendo-nes-font.otf'); 
+} 
+
+@keyframes pan {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+
+.corpo{
+    background-image:  url("Images/Shovel\ Knight\ Pattern\ Background.png");
+background-size: 10%;
+
+animation: pan 18s linear infinite;
+}
+
+.cabecalho{
+background-color: white;
+background-size: 100%;
+}
+
+.HomeScreenTitle {
+color: white ;
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+font-size: 70px;
+}
+
+.HomeScreenLogo{
+text-align: center;
+}
+
+.HomescreenIntro{
+    margin-top: 200px;
+text-align: center;
+width: 70%;
+height: 390px;
+background-color: black;
+display:inline-block;
+overflow: hidden;
+}
+
+.HomescreenIntroText{
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+    font-family: NES;
+}
+
+.TheSKLine{
+    overflow: hidden;
+
+}
